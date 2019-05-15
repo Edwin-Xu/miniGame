@@ -1,0 +1,25 @@
+<view class="main">
+    <view class='table'>
+        <view class='tr'>
+            <view class='td'>0</view>
+            <view class='td'>0</view>
+            <view class='td'>0</view>
+        </view>
+        <view class='tr'>
+            <view class='td'>1</view>
+            <view class='td'>1</view>
+            <view class='td'>1</view>
+        </view>
+        <view class='tr'>
+            <view class='td'>2</view>
+            <view class='td'>2</view>
+            <view class='td'>2</view>
+        </view>
+  </view>
+</view>
+
+<view class=".containerBtn">
+  <button class="btn">上一关</button>
+  <button class="btn">重试</button>
+  <button class="btn">下一关</button>
+</view>

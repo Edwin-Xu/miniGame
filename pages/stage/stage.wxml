@@ -1,0 +1,29 @@
+<!-- 这是关卡大全页面 -->
+
+<image class='background' src="../../images/bg.jpg" mode="aspectFill"></image>
+<view class="container table" >
+    <view class='tip'>请选择关卡</view>
+
+    <view class='.container1'>
+      <view class='item' hover-class='hover' bindtap='toLevel1'>1</view>
+      <view class='item' hover-class='hover' bindtap='toLevel2'>2</view>
+      <view class='item' hover-class='hover' bindtap='toLevel3'>3</view>
+      <view class='item' hover-class='hover' bindtap='toLevel4'>4</view>
+      <view class='item' hover-class='hover' bindtap='toLevel5'>5</view>
+      <view class='item' hover-class='hover' bindtap='toLevel6'>6</view>
+      <view class='item' hover-class='hover' bindtap='toLevel7'>7</view>
+      <view class='item' hover-class='hover' bindtap='toLevel8'>8</view>
+      <view class='item' hover-class='hover' bindtap='toLevel9'>9</view>
+      <view class='item' hover-class='hover' bindtap='toLevel10'>10</view>
+      <view class='item' hover-class='hover' bindtap='toLevel11'>11</view>
+      <view class='item' hover-class='hover' bindtap='toLevel12'>12</view>
+      <view class='item' hover-class='hover' bindtap='toLevel13'>13</view>
+      <view class='item' hover-class='hover' bindtap='toLevel14'>14</view>
+      <view class='item' hover-class='hover' bindtap='toLevel15'>15</view>
+      <!-- <view class='item' hover-class='hover'>16</view> -->
+      <!-- <view class='item' hover-class='hover'>4</view> -->
+      <!-- <view class='item' hover-class='hover'>4</view> -->
+
+    </view>
+
+</view>

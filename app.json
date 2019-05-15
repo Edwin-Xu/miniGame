@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/stage/stage",
+    "pages/levels/level1/level1",
+    "pages/levels/level2/level2",
+    "pages/levels/level3/level3",
+    "pages/levels/level4/level4",
+    "pages/levels/level5/level5",
+    "pages/levels/level6/level6",
+    "pages/levels/level7/level7",
+    "pages/levels/level8/level8",
+    "pages/levels/level9/level9",
+    "pages/levels/level10/level10",
+    "pages/levels/level11/level11",
+    "pages/levels/level12/level12",
+    "pages/levels/level13/level13",
+    "pages/levels/level14/level14",
+    "pages/levels/level15/level15"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00FFFF",
+    "navigationBarTitleText": "新打地鼠",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
