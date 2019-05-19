@@ -1,9 +1,51 @@
 <!-- 
+设计：导航栏要不要添加一个home，返回键似乎不需要加。
+
+
+
+
+
+
 为了适应不同的设备：
   font-size：100%——使用百分比，不要使用具体值。
+  rpx是更好的选择
+  百分比只针对父容器而言。
 
 
 
+CSS3引入的”vw”和”vh”基于宽度/高度相对于窗口大小 
+”vw”=”view width”“vh”=”view height” 
+以上我们称为视窗单位允许我们更接近浏览器窗口来定义大小。
+    height: 60vw;
 
 
+rpx 是微信小程序解决自适应屏幕尺寸的尺寸单位。微信小程序规定屏幕的宽度为750rpx。
+
+
+提示框：wx.showToast
+wx.showToast({
+      title: '已经是第一关了！',
+      icon:"none"
+    })
+
+
+
+修改样式：
+小程序js不能操作dom，更改绑定的对应数据（数组中的对应项），在setData就会自动更新了
+<text style="color:{{color}}">变色</text>      元素样式使用内联式样式法，属性值使用微信提供的特殊表达式符号。
+this.setData({ color: "green" })                这是js中修改的方法
+
+
+自定义导航栏：https://www.jianshu.com/p/7393c800ba09
+
+
+
+JS中：把定义的函数写在app()外：
+function a(){
+  console.log("hh");
+}
+
+diaabled效果：改变“鼠标”事件：
+pointer-events:{{poi}}
+手指点击是否可用：auto可用，none不可用。
  -->

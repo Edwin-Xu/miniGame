@@ -18,12 +18,18 @@
     "pages/levels/level13/level13",
     "pages/levels/level14/level14",
     "pages/levels/level15/level15"
+
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#00FFFF",
-    "navigationBarTitleText": "新打地鼠",
+    "navigationBarTitleText": "神奇方块",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"
+
+  
+
+  
+ 
 }

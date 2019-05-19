@@ -1,2 +1,24 @@
-<!--pages/levels/level15/level15.wxml-->
-<text>pages/levels/level15/level15.wxml</text>
+<view class='levelTip'>第十五关</view>
+<view class='table' style='pointer-events:{{poi}}'>
+    <view class='tr'>
+        <view class='td' bindtap='click0' style="background:{{color[0].c}}">{{arr[0][1].length}}</view>
+        <view class='td' bindtap='click1' style="background:{{color[1].c}}">{{arr[1][1].length}}</view>
+        <view class='td' bindtap='click2' style="background:{{color[2].c}}">{{arr[2][1].length}}</view>
+    </view>
+    <view class='tr'>
+        <view class='td' bindtap='click3' style="background:{{color[3].c}}">{{arr[3][1].length}}</view>
+        <view class='td' bindtap='click4' style="background:{{color[4].c}}">{{arr[4][1].length}}</view>
+        <view class='td' bindtap='click5' style="background:{{color[5].c}}">{{arr[5][1].length}}</view>
+    </view>
+    <view class='tr'>
+        <view class='td' bindtap='click6' style="background:{{color[6].c}}">{{arr[6][1].length}}</view>
+        <view class='td' bindtap='click7' style="background:{{color[7].c}}">{{arr[7][1].length}}</view>
+        <view class='td' bindtap='click8' style="background:{{color[8].c}}">{{arr[8][1].length}}</view>
+    </view>
+</view>
+
+<view class=".containerBtn">
+  <button class="btn" bindtap='lastLevel'>上一关</button>
+  <button class="btn" bindtap='retry'>重试</button>
+  <button class="btn" bindtap='next'>下一关</button>
+</view>

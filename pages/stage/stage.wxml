@@ -1,6 +1,6 @@
 <!-- 这是关卡大全页面 -->
 
-<image class='background' src="../../images/bg.jpg" mode="aspectFill"></image>
+<image class='background' src="../../images/bg3.jpg" mode="aspectFill"></image>
 <view class="container table" >
     <view class='tip'>请选择关卡</view>
 

@@ -1,1 +1,52 @@
 /* pages/levels/level10/level10.wxss */
+.levelTip{
+  text-align: center;
+}
+
+.tr{
+  width:100%;
+  height: 33%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background: gray; */
+  margin: 0 auto;
+}
+
+.td{
+    width: 31%;
+    height:100%;
+    /* background: yellow; */
+    border: 2px red solid;
+    text-align: center;
+    line-height: 200rpx;
+}
+
+.table{
+    /* border: 2px rgb(34, 0, 128) solid; */
+    width: 600rpx;
+    height: 600rpx;
+    margin:100rpx auto auto auto;
+    /* background: green; */
+}
+
+.btn{
+    width: 20%;
+    height: 10%;
+    font-size: 70%;
+    bottom: 0;
+    background: aqua;
+}
+
+.containerBtn{
+  /* //下面底部的三个按钮 */
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  bottom: 5%;
+  margin: 0 auto;
+  width: 100%;
+}
